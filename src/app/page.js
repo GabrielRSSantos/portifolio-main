@@ -1,4 +1,4 @@
-
+'use client'
 
 import Footer from '@/app/Footer/Footer';
 import Header from '@/app/Header/Header';
