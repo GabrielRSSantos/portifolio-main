@@ -1,8 +1,16 @@
+
+
+import Footer from '@/app/Footer/Footer';
+import Header from '@/app/Header/Header';
+import Sobre from '@/app/Sobre/Sobre';
+
 export default function Home() {
   return (
       <main>
-          <div className="flex bg-slate-300  justify-center">
-            <h1 className='font-bold'>Portifolio Gabriel</h1>
+          <div className="flex justify-center flex-col">
+            <Header/>
+            <Sobre/>
+            <Footer/>
           </div>
       </main>
     )
